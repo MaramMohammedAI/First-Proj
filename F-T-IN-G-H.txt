@@ -1,0 +1,54 @@
+import sys
+
+Data1 = {'name':'Amal','number':'053 387 2397'}
+Data2 = {'name':'Mohammed','number':'055 573 1222'}
+Data3 = {'name':'Kadijah','number':'055 678 1345'}
+Data4 = {'name':'Abdullah','number':'053 211 6770'}
+Data5 = {'name':'Rawan','number':'059 555 2223'}
+Data6 = {'name':'Faisal','number':'055 444 6768'}
+Data7 = {'name':'Omar','number':'053 599 4457'}
+
+Tok=10
+Cus_inp = '059 555 2223'
+Digit = input('Pleas enter your num of Digit:')
+Digit1 =int(Digit)
+#print(type(Digit1))
+
+if Tok == Digit1:
+    print('')
+else:
+ print('This is invalid num')
+ sys.exit()
+
+if Cus_inp=='053 387 2397':
+    print('Amal')
+
+elif Cus_inp=='055 573 1222':
+     print('Mohammed')
+
+elif Cus_inp=='055 678 1345':
+    print('Kadijah')
+
+elif Cus_inp=='053 211 6770':
+    print('Abdullah')
+
+elif Cus_inp=='059 555 2223':
+    print('Rawan')
+
+elif Cus_inp=='055 444 6768':
+    print('Faisal')
+
+elif Cus_inp=='053 599 4457':
+    print('Omar')
+
+else:
+    print('Sorry!, The number is not found')
+
+print('')
+
+def new():
+ Name = (input('your Name: '))
+ Number=(input('Your Number: '))
+
+#if you want to add a new Customer Ues the code in the next line also you can use the function any time you want!
+#new()
